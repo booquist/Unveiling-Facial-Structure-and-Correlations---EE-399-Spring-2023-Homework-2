@@ -231,6 +231,7 @@ Percentage of variance captured by each of the first 6 SVD modes:
 ```
 ![image](https://user-images.githubusercontent.com/103399658/232252896-24476293-f9b2-42f4-970d-2b14d0ada5c9.png)
 
+The SVD modes clearly highlight important features in differentiating and recognizing faces, although they're not always components that humans may point out or recognize. SVD mode 1 displays the eyes, nostrils, and mouth prominently, as well as shading components of face shape. As the faces are displayed under different lighting conditions, some of the highlighted features are very lighting dependent. For example, SVD mode 4 clearly pulls from the lighting condition in which the light source was displayed prominently underneath the face. SVD mode 2, on the other hand, dispalys features of a face that are lit from the left. This demonstrates some of the flaws of relying on SVD modes entirely for facial recognition or differentiation. 
 
 ## V. Summary and Conclusions
 In conclusion, our computational results showcase the importance of analyzing facial data using correlation matrices, eigenvectors, and principal components. These techniques help us understand the primary variations and relationships within the dataset, allowing for better representation and analysis of complex facial data.
